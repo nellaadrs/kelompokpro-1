@@ -107,6 +107,9 @@ with  modelling:
 		from sklearn.metrics import mean_absolute_percentage_error
 
 		hasil_mape = mean_absolute_percentage_error(dataset_test, prediksi)
+		#akurasi
+		akurasi = 1 - hasil_mape 
+		st.write('Akurasi Model K-Nearest Neighbors :', akurasi)
 		st.write('MAPE Model K-Nearest Neighbors :', hasil_mape)
 	if svr:
 		from sklearn.svm import SVR
@@ -145,6 +148,9 @@ with  modelling:
 		from sklearn.metrics import mean_absolute_percentage_error
 
 		hasil_mape = mean_absolute_percentage_error(dataset_test, prediksi)
+		#akurasi
+		akurasi = 1 - hasil_mape 
+		st.write('Akurasi Support Vector Regression :', akurasi)
 		st.write('MAPE Model Support Vector Regression :', hasil_mape)
 	
 with  implementasi:
