@@ -146,11 +146,7 @@ with  modelling:
 
 		hasil_mape = mean_absolute_percentage_error(dataset_test, prediksi)
 		st.write('MAPE Model Support Vector Regression :', hasil_mape)
-	else:
-		st.write("Tidak ada model yang dipilih")
-
 	
-
 with  implementasi:
     with st.form("my_form"):
         st.write("Implementasi")
