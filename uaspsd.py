@@ -11,8 +11,8 @@ Isnain Faiziah (200411100007)
 Nella Adrisia Hartono (200411100107)
 """
 
-!pip install pandas
-!pip install numpy
+# !pip install pandas
+# !pip install numpy
 
 import math
 import matplotlib.pyplot as plt
