@@ -24,8 +24,8 @@ def read_data():
     
     
 with data:
-    st.write("Link dataset : https://finance.yahoo.com/quote/SMGR.JK/history?p=SMGR.JK
-")
+    st.write("""Link dataset : https://finance.yahoo.com/quote/SMGR.JK/history?p=SMGR.JK
+""")
     st.write("""
 	Dataset yang digunakan berasal dari data finance yahoo.com dari perusahaan PT Semen Indonesia (Persero) Tbk (SMGR.JK). Data ini berjumlah 247 Data dengan 7 fitur, yaitu: Date, Open, High, Low, Close,Adj, Close, Volume. Data yang digunakan ini merupakan catatan harga dalam kurun waktu 15 Juni 2022 - 15 Juni 2023. Dalam catatan data tersebut dapat dilakukan perhitungan tingkat kesalahan dalam melakukan prediksi beberapa hari yang akan datang .
 	
